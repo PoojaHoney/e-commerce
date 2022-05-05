@@ -1,0 +1,28 @@
+register user = {
+ "email": "pooja.tumu@gmail.com",
+ "password": "pooja"
+}
+
+login details = {
+ "email": "pooja.tumu@gmail.com",
+ "password": "pooja"
+}
+
+token response = {
+    "status": 200,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODMxNzgzOTQsImlzcyI6InVzZXJfc2VydmljZSIsIklkIjoyLCJFbWFpbCI6InBvb2phLnR1bXVAZ21haWwuY29tIn0.wLnEaqWFl_4kZbmAfVXRtTE-jcXTzQIFRIKhQBS2Tc8"
+}
+
+token for authorization = header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODAxOTE2OTQsImlzcyI6ImdvLWdycGMtYXV0aC1zdmMiLCJJZCI6MiwiRW1haWwiOiJlbG9uQG11c2suY29tIn0.CfMns46bQuhVw_SBrKfRMFQx9MchlDWMxpEPP79wFzU'
+
+create product = {
+ "name": "Product A",
+ "stock": 5,
+ "price": 15
+}
+
+create order = {
+ "productId": 1,
+ "quantity": 1
+}
+
